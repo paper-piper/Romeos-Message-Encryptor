@@ -43,3 +43,16 @@
 2023-09-22 18:30:56,375 - INFO - Encrypting the message: My bounty is as boundless as the sea, My love as deep; the more I give to thee, The more I have, for both are infinite.
 2023-09-22 18:30:56,375 - INFO - Finished encrypting with the message : 48,96,98,13,36,92,35,91,96,98,30,90,98,12,90,98,13,36,92,35,15,33,16,90,90,98,12,90,98,91,19,16,98,90,16,12,99,98,48,96,98,33,36,93,16,98,12,90,98,15,16,16,37,101,98,91,19,16,98,34,36,39,16,98,44,98,18,30,93,16,98,91,36,98,91,19,16,16,99,98,65,19,16,98,34,36,39,16,98,44,98,19,12,93,16,99,98,17,36,39,98,13,36,91,19,98,12,39,16,98,30,35,17,30,35,30,91,16,100
 2023-09-22 18:31:22,776 - INFO - the encryption dictionary: {'56': 'A', '45': 'J', '64': 'S', '13': 'b', '32': 'k', '91': 't', '100': '.', '57': 'B', '46': 'K', '65': 'T', '14': 'c', '33': 'l', '92': 'u', '101': ';', '58': 'C', '47': 'L', '66': 'U', '15': 'd', '34': 'm', '93': 'v', '102': '‘', '59': 'D', '48': 'M', '67': 'V', '16': 'e', '35': 'n', '94': 'w', '103': '?', '40': 'E', '49': 'N', '68': 'W', '17': 'f', '36': 'o', '95': 'x', '104': '!', '41': 'F', '60': 'O', '69': 'X', '18': 'g', '37': 'p', '96': 'y', '105': ':', '42': 'G', '61': 'P', '10': 'Y', '19': 'h', '38': 'q', '97': 'z', '43': 'H', '62': 'Q', '11': 'Z', '30': 'i', '39': 'r', '98': ' ', '44': 'I', '63': 'R', '12': 'a', '31': 'j', '90': 's', '99': ','}
+2023-10-17 12:12:40,897 - INFO - Encrypting the message: Hallo
+2023-10-17 12:12:40,898 - INFO - Finished encrypting with the message : 43,12,33,33,36
+2023-10-17 12:20:19,214 - INFO - Encrypting the message: Hallo everyone
+2023-10-17 12:20:19,215 - INFO - Finished encrypting with the message : 43,12,33,33,36,98,16,93,16,39,96,36,35,16
+2023-10-17 12:21:00,387 - CRITICAL - User didn't enter either encrypt or decrypt in sys.argv
+2023-10-17 12:22:26,463 - CRITICAL - User didn't enter anything into sys.argv
+2023-10-17 12:23:42,649 - CRITICAL - User didn't enter anything into sys.argv
+2023-10-17 12:24:01,175 - INFO - Encrypting the message: Hall
+2023-10-17 12:24:01,176 - ERROR - Error: File not found at path C:\Users\yonat\wnloads\Messages.txt
+2023-10-17 12:29:32,368 - INFO - Encrypting the message: what you can't see, is me
+2023-10-17 12:29:32,369 - ERROR - An unexpected error occurred: 
+2023-10-17 12:41:27,102 - ERROR - Invalid message string on char 2
+2023-10-17 12:41:42,893 - ERROR - Invalid message string on char '2'
