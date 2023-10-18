@@ -60,3 +60,7 @@
 2023-10-18 12:16:23,087 - INFO - Finished encrypting with the message : 'My name is inigo mintoya'
 2023-10-18 12:16:33,936 - INFO - Finished encrypting with the message : 'Yaaaa'
 2023-10-18 12:16:43,528 - INFO - Decrypted the message: 'Yaaaa'
+2023-10-18 12:25:39,767 - ERROR - Error: File not found at path encrypted_msg.txt
+2023-10-18 12:26:27,986 - ERROR - Error: File not found at path encrypted_msg.txt
+2023-10-18 12:28:49,433 - INFO - Finished encrypting with the message : 'Halllo'
+2023-10-18 12:29:08,594 - INFO - Finished encrypting with the message : ''
