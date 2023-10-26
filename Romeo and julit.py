@@ -1,3 +1,10 @@
+"""
+Author: Yoni Reichert
+Program name: Romeo and julit.py
+Description: Encrypt and decrypt messages into files
+Date: 26-10-2023
+"""
+
 import sys
 import logging
 
@@ -16,6 +23,7 @@ def validate_message(message):
     Validates that each character in the provided message string exists in DECRYPTION_DICTIONARY.
     @:param (str): The message string to be validated.
     @:raises ValueError: If any character in the message is not present in DECRYPTION_DICTIONARY.
+    @:return None
     """
     for char in message:
         if not (char in DECRYPTION_DICTIONARY.values()):
@@ -26,9 +34,10 @@ def validate_message(message):
 def encrypt_message(message):
     """
     Encrypts a given message string and writes the encrypted message to a file.
-    @:param message (str): The message string to be encrypted.
     - Calls validate_message to ensure message validity.
     - Writes the encrypted message to MESSAGES_FILE_PATH.
+    @:param message (str): The message string to be encrypted.
+    @:return None
     """
     validate_message(message)
     try:
@@ -45,8 +54,9 @@ def encrypt_message(message):
 def decrypt_message():
     """
     Decrypts a message string from a file and returns it.
-    @:return str: The decrypted message string.
     - Reads the encrypted message from MESSAGES_FILE_PATH.
+    @:param None
+    @:return str: The decrypted message string.
     """
     try:
         with open(MESSAGES_FILE_PATH, 'r') as message_file:

@@ -64,3 +64,5 @@
 2023-10-18 12:26:27,986 - ERROR - Error: File not found at path encrypted_msg.txt
 2023-10-18 12:28:49,433 - INFO - Finished encrypting with the message : 'Halllo'
 2023-10-18 12:29:08,594 - INFO - Finished encrypting with the message : ''
+2023-10-26 16:24:27,088 - ERROR - Invalid message string on char '#'
+2023-10-26 16:25:16,070 - ERROR - Invalid message string on char '#'
