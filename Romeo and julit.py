@@ -1,6 +1,5 @@
 import sys
 import logging
-import os
 
 
 # Configure the logging module
@@ -13,6 +12,11 @@ ENCRYPTION_DICTIONARY = {v: k for k, v in DECRYPTION_DICTIONARY.items()}
 
 
 def validate_message(message):
+    """
+    Validates that each character in the provided message string exists in DECRYPTION_DICTIONARY.
+    @:param (str): The message string to be validated.
+    @:raises ValueError: If any character in the message is not present in DECRYPTION_DICTIONARY.
+    """
     for char in message:
         if not (char in DECRYPTION_DICTIONARY.values()):
             logging.error(f"Invalid message string on char '{char}'")
@@ -20,7 +24,12 @@ def validate_message(message):
 
 
 def encrypt_message(message):
-    # Checking if the message is valid
+    """
+    Encrypts a given message string and writes the encrypted message to a file.
+    @:param message (str): The message string to be encrypted.
+    - Calls validate_message to ensure message validity.
+    - Writes the encrypted message to MESSAGES_FILE_PATH.
+    """
     validate_message(message)
     try:
         with open(MESSAGES_FILE_PATH, 'w') as message_file:
@@ -34,6 +43,11 @@ def encrypt_message(message):
 
 
 def decrypt_message():
+    """
+    Decrypts a message string from a file and returns it.
+    @:return str: The decrypted message string.
+    - Reads the encrypted message from MESSAGES_FILE_PATH.
+    """
     try:
         with open(MESSAGES_FILE_PATH, 'r') as message_file:
             encrypted_msg = message_file.read()
